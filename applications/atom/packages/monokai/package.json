@@ -1,7 +1,7 @@
 {
   "name": "monokai",
   "theme": "syntax",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "private": true,
   "description": "A monokai theme",
   "repository": {
@@ -18,9 +18,10 @@
     "url": "https://github.com/kevinsawicki/monokai/issues"
   },
   "homepage": "https://github.com/kevinsawicki/monokai",
-  "_id": "monokai@0.5.0",
+  "_id": "monokai@0.7.0",
   "dist": {
-    "shasum": "66f8c048cbb09f77aad8b5fc30090c21b7a5184b"
+    "shasum": "675771fb5cfa4a2532412101b07ce633577e9c54"
   },
-  "_from": "/Users/tmcinerney/.atom/.node-gyp/.atom/.apm/monokai/0.5.0/package.tgz"
+  "_resolved": "/var/folders/xg/30k1c66j7x7497l6wyd05z380000gn/T/d-11463-33913-skcams/package.tgz",
+  "_from": "/var/folders/xg/30k1c66j7x7497l6wyd05z380000gn/T/d-11463-33913-skcams/package.tgz"
 }

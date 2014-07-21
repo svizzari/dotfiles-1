@@ -7,10 +7,9 @@
 'metrics':
   'userId': '67049412f8d15147aa63d8c621048425d321a8ca'
 'editor':
-  'fontSize': 14
   'showInvisibles': true
   'showIndentGuide': true
-  'fontFamily': 'Courier New'
+  'fontFamily': 'Anonymous Pro for Powerline'
 'core':
   'themes': [
     'atom-dark-flat-ui'
@@ -26,3 +25,4 @@
     'travis-ci-status'
     'Zen'
   ]
+  'useReactEditor': true

@@ -3,7 +3,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"color_scheme": "Packages/Wombat Extended/Wombat Extended.tmTheme",
 	"copy_with_empty_selection": false,
 	"drag_text": false,
 	"draw_minimap_border": true,
@@ -27,31 +27,33 @@
 		"tmp",
 		"vendor"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Anonymous Pro for Powerline",
 	"font_options":
 	[
 		"no_round",
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"indent_to_bracket": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Vintageous"
 	],
+	"indent_to_bracket": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
 	"soda_folder_icons": true,
 	"tab_size": 2,
-	"theme": "predawn.sublime-theme",
+	"theme": "Afterglow-blue.sublime-theme",
 	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
