@@ -1,0 +1,28 @@
+[
+	{
+		"clean": ["~"]
+	},
+	{
+		"shell": [
+		]
+	},
+	{
+		"link": {
+			"~/.ackrc":    	"ackrc",
+			"~/.dotfiles": 	"",
+			"~/.gemrc": 		"gemrc",
+			"~/.gitconfig": "gitconfig",
+			"~/.gitignore": "gitignore",
+			"~/.tmux.conf": "tmux.conf",
+			"~/.vim": 			"vim/",
+			"~/.vimrc": 		"vimrc",			
+			"~/.zsh": 			"zsh/",
+			"~/.zshrc": 		"zshrc"
+		}
+	},
+	{
+		"shell": [
+			["git update-submodules", "Installing/updating submodules"]
+		]
+	}
+]
