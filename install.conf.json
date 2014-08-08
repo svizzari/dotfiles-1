@@ -13,6 +13,7 @@
       "~/.gitconfig":     "gitconfig",
       "~/.gitignore":     "gitignore",
       "~/.oh-my-zsh":     "zsh/oh-my-zsh/",
+      "~/.rspec":         "rspec",
       "~/.tmux.conf":     "tmux.conf",
       "~/.vim":           "vim/",
       "~/.vimrc":         "vimrc",

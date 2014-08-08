@@ -49,20 +49,21 @@ plugins=(autojump bundler command-not-found docker git terminator)
 
 source $ZSH/oh-my-zsh.sh
 
+
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.dotfiles/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -78,3 +79,6 @@ alias mysql="mysql -uroot"
 alias reload!="source ~/.zshrc"
 alias restart!="touch ./tmp/restart.txt"
 alias watch="tail -f log/development.log"
+
+# Force 256 colors
+# export TERM="xterm-256color"
