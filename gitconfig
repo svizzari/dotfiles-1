@@ -31,6 +31,9 @@
   added     = green
   untracked = red
 
+[core]
+	editor = vim
+
 [push]
   default = simple
 
