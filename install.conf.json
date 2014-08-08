@@ -3,8 +3,7 @@
     "clean": ["~"]
   },
   {
-    "shell": [
-    ]
+    "shell": []
   },
   {
     "link": {
