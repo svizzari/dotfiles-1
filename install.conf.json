@@ -8,7 +8,6 @@
   {
     "link": {
       "~/.ackrc":         "ackrc",
-      "~/.dotfiles":      "",
       "~/.gemrc":         "gemrc",
       "~/.gitconfig":     "gitconfig",
       "~/.gitignore":     "gitignore",
