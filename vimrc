@@ -40,14 +40,15 @@ set smartcase
 set wildmode=longest,list
 set wildmenu
 set mouse+=a " enable mouse mode (scrolling, selection, etc)
+set laststatus=2
 
 "-------------------
 " Disable arrow keys
 "-------------------
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
+" nnoremap <Left> :echoe "Use h"<CR>
+" nnoremap <Right> :echoe "Use l"<CR>
+" nnoremap <Up> :echoe "Use k"<CR>
+" nnoremap <Down> :echoe "Use j"<CR>
 
 "--------------
 " Better saving
@@ -55,34 +56,75 @@ nnoremap <Down> :echoe "Use j"<CR>
 inoremap jj <esc> :w!<cr>
 map <leader>w :w!<cr>
 
-"--------------------
-" Misc configurations
-"--------------------
-" open new split panes to right and bottom, which feels more natural
-set splitbelow
-set splitright
-
+"---------
+" Seaching
+"---------
 " Better Ack
-nmap <leader>f :Ack! 
+nmap <leader>f :Ack!<space>
 
 " Clear search highlighting
 nnoremap <leader><space> :noh<cr>
 
+"-------------
+" Git commands
+"-------------
+nmap <leader>gb :Gblame<CR>
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>gl :Glog<CR>
+nmap <leader>gc :Gcommit<CR>
+nmap <leader>gp :Git push<CR>
+
+"-----------
+" Unimpaired
+"-----------
+" Normal Mode: Bubble single lines
+nmap <C-Up> [e
+nmap <C-Down> ]e
+
+" Visual Mode: Bubble multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
+
+"--------------------
+" Misc configurations
+"--------------------
 " Treat folds as text-objects
 vnoremap af :<C-U>silent! normal! [zV]z<CR>
 omap af :normal Vaf<CR>
 
+" Toggle comment
+map <leader>/ <plug>NERDCommenterToggle<CR>
+
+" Toggle NERDTree
+map <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
+
+" Tagbar
+map <leader>rt :TagbarToggle<CR>
+
+" open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
 "------
 " Theme
 "------
-colorscheme wombat
+colorscheme base16-eighties
 set guifont=Anonymous\ Pro:h14
 set background=dark
-let base16colorspace=256  " Access colors present in 256 colorspace
+let base16colorspace=256
 
 "--------
 " Plugins
 "--------
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_detect_modified=1
+let g:airline_detect_paste=1
+
+let NERDTreeHijackNetrw=1
+
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_messages={'level': 'warnings'}
 let g:syntastic_auto_loc_list=2
