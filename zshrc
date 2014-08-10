@@ -57,4 +57,4 @@ export PATH=$HOME/.dotfiles/bin:/usr/local/bin:$PATH
 export EDITOR='vim'
 
 # Force 256 colors
-export TERM="xterm-256color"
+# export TERM="xterm-256color"

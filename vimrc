@@ -112,7 +112,7 @@ set splitright
 colorscheme base16-eighties
 set guifont=Anonymous\ Pro:h14
 set background=dark
-let base16colorspace=256
+" let base16colorspace=256
 
 "--------
 " Plugins
