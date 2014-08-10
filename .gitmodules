@@ -88,3 +88,6 @@
 [submodule "vim/bundle/Wombat"]
 	path = vim/bundle/Wombat
 	url = https://github.com/vim-scripts/Wombat.git
+[submodule "vim/bundle/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git

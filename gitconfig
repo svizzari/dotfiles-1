@@ -1,27 +1,30 @@
 [user]
-	name  	= Travers McInerney
-	email 	= travers@mcinerney.me
+  name    = Travers McInerney
+  email   = travers@mcinerney.me
 
 [alias]
-  a       						= add -p
-  aa 								  = add --all :/
-  br      						= branch -vv
-  bra 								= branch -vv --all
-  ca 									= commit --amend -v
-  ci      						= commit -v
-  cim     						= commit -m
-  co      						= checkout
-  fa 									= fetch --all --prune
-  hist    						= log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-  lg      						= log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  pr      						= pull-request
-  sf 									= show --format=fuller
-	sfs 								= show --format=fuller --stat
-  st     							= status -sb
-  standup 						= log --since=yesterday --author='Travers McInerney'
-  track   						= branch -u
-  update-submodules  	= submodule update --init --recursive
-	upgrade-submodules 	= submodule update --init --remote
+  a                   = add -p
+  aa                  = add --all :/
+  br                  = branch -vv
+  bra                 = branch -vv --all
+  ca                  = commit --amend -v
+  ci                  = commit -v
+  cim                 = commit -m
+  co                  = checkout
+  fa                  = fetch --all --prune
+  hist                = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  lg                  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  pr                  = pull-request
+  sf                  = show --format=fuller
+  sfs                 = show --format=fuller --stat
+  st                  = status -sb
+  standup             = log --since=yesterday --author='Travers McInerney'
+  track               = branch -u
+  update-submodules   = submodule update --init --recursive
+  upgrade-submodules  = submodule update --init --remote
+
+[branch]
+  autosetuprebase = always
 
 [color]
   ui = true
@@ -32,7 +35,11 @@
   untracked = red
 
 [core]
-	editor = vim
+  editor       = vim
+  excludesfile = /home/tmcinerney/.gitignore
+
+[credential]
+  helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
 
 [push]
   default = simple
@@ -40,7 +47,3 @@
 [pull]
   default = simple
 
-[branch]
-  autosetuprebase = always
-[credential]
-	helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
