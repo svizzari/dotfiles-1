@@ -75,15 +75,10 @@ omap af :normal Vaf<CR>
 "------
 " Theme
 "------
-colorscheme jellybeans
+colorscheme wombat
 set guifont=Anonymous\ Pro:h14
 set background=dark
-"let base16colorspace=256  " Access colors present in 256 colorspace
-let g:lightline = {
-  \ 'colorscheme': 'jellybeans',
-  \ 'separator': { 'left': '', 'right': '' },
-  \ 'subseparator': { 'left': '|', 'right': '|' }
-\ }
+let base16colorspace=256  " Access colors present in 256 colorspace
 
 "--------
 " Plugins
@@ -95,7 +90,6 @@ let g:syntastic_auto_loc_list=2
 "---------------------
 " Local customizations
 "---------------------
-" local customizations in ~/.vimrc_local
 let $LOCALFILE=expand("~/.vimrc_local")
 if filereadable($LOCALFILE)
   source $LOCALFILE

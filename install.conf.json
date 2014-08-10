@@ -3,26 +3,26 @@
     "clean": ["~"]
   },
   {
-    "shell": []
+    "shell": [
+      ["git update-submodules", "Installing/updating submodules"],
+      ["mkdir -p ~/.config/terminator/", "Adding terminator config directory"]
+    ]
   },
   {
     "link": {
-      "~/.ackrc":         "ackrc",
-      "~/.gemrc":         "gemrc",
-      "~/.gitconfig":     "gitconfig",
-      "~/.gitignore":     "gitignore",
-      "~/.oh-my-zsh":     "zsh/oh-my-zsh/",
-      "~/.rspec":         "rspec",
-      "~/.ssh":           "/mnt/hgfs/tmcinerney/.ssh",
-      "~/.tmux.conf":     "tmux.conf",
-      "~/.vim":           "vim/",
-      "~/.vimrc":         "vimrc",
-      "~/.zshrc":         "zshrc"
+      "~/.ackrc":                     "ackrc",
+      "~/.config/terminator/config":  "terminator",
+      "~/.gemrc":                     "gemrc",
+      "~/.gitconfig":                 "gitconfig",
+      "~/.gitignore":                 "gitignore",
+      "~/.oh-my-zsh":                 "zsh/oh-my-zsh/",
+      "~/.rspec":                     "rspec",
+      "~/.ssh":                       "/mnt/hgfs/tmcinerney/.ssh",
+      "~/.tmux.conf":                 "tmux.conf",
+      "~/.vim":                       "vim/",
+      "~/.vimrc":                     "vimrc",
+      "~/.zshrc":                     "zshrc",
+      "~/Google Drive":               "/mnt/hgfs/tmcinerney/Google Drive"
     }
-  },
-  {
-    "shell": [
-      ["git update-submodules", "Installing/updating submodules"]
-    ]
   }
 ]

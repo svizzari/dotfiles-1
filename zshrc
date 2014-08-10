@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="random"
+ZSH_THEME="pmcgee"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -63,4 +63,4 @@ export EDITOR='vim'
 # export ARCHFLAGS="-arch x86_64"
 
 # Force 256 colors
-# export TERM="xterm-256color"
+export TERM="xterm-256color"

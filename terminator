@@ -1,0 +1,38 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler
+  title_transmit_bg_color = "#f2777a"
+  focus = mouse
+  title_inactive_bg_color = "#747369"
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
+    background_image = None
+    cursor_color = "#d3d0c8"
+    foreground_color = "#d3d0c8"
+    copy_on_selection = True
+    background_color = "#2d2d2d"
+    allow_bold = False
+    scrollback_infinite = True
+  [[Base16 Eighties Dark]]
+    scrollbar_position = hidden
+    palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
+    font = Anonymous Pro 12
+    background_image = None
+    use_system_font = False
+    cursor_color = "#d3d0c8"
+    foreground_color = "#d3d0c8"
+    copy_on_selection = True
+    background_color = "#2d2d2d"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Base16 Eighties Dark
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
