@@ -109,20 +109,15 @@ set splitright
 "------
 " Theme
 "------
-colorscheme base16-eighties
+colorscheme jellybeans "base16-tomorrow
 set guifont=Anonymous\ Pro:h14
 set background=dark
-" let base16colorspace=256
+set t_Co=256
+let g:lightline={ 'colorscheme': 'jellybeans' }
 
 "--------
 " Plugins
 "--------
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-let g:airline_detect_modified=1
-let g:airline_detect_paste=1
-
 let NERDTreeHijackNetrw=1
 
 let g:syntastic_enable_signs=1

@@ -76,9 +76,6 @@
 [submodule "vim/bundle/vim-handlebars"]
 	path = vim/bundle/vim-handlebars
 	url = https://github.com/nono/vim-handlebars.git
-[submodule "vim/bundle/vim-airline"]
-	path = vim/bundle/vim-airline
-	url = https://github.com/bling/vim-airline.git
 [submodule "vim/bundle/base16-vim"]
 	path = vim/bundle/base16-vim
 	url = https://github.com/chriskempson/base16-vim.git
@@ -103,3 +100,6 @@
 [submodule "vim/bundle/vim-kolor"]
 	path = vim/bundle/vim-kolor
 	url = https://github.com/zeis/vim-kolor.git
+[submodule "vim/bundle/lightline.vim"]
+	path = vim/bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
