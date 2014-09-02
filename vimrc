@@ -27,6 +27,7 @@ set autochdir " automatically set current directory to directory of last opened 
 set hidden " allow auto-hiding of edited buffers
 set history=4096 " more history
 set foldmethod=indent " use syntax to define folds
+set smartindent
 " unfold everything by default
 autocmd Syntax * normal zR
 " use 2 spaces instead of tabs during formatting
@@ -102,6 +103,9 @@ map <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 
 " Tagbar
 map <leader>rt :TagbarToggle<CR>
+
+" Toggle paste mode
+set pastetoggle=<F4>
 
 " open new split panes to right and bottom, which feels more natural
 set splitbelow
