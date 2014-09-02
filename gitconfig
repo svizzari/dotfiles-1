@@ -27,7 +27,8 @@
   autosetuprebase = always
 
 [color]
-  ui = true
+  diff = true
+  ui   = true
 
 [color "status"]
   changed   = yellow
@@ -37,9 +38,6 @@
 [core]
   editor       = vim
   excludesfile = /home/tmcinerney/.gitignore
-
-[credential]
-  helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
 
 [push]
   default = simple

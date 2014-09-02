@@ -10,6 +10,7 @@ call pathogen#helptags()
 "---------------------
 " Basic editing config
 "---------------------
+syntax on
 let mapleader=","
 set nu " number lines
 set incsearch " incremental search (as string is being typed)
@@ -25,7 +26,7 @@ set timeout timeoutlen=1000 ttimeoutlen=100 " fix slow O inserts
 set autochdir " automatically set current directory to directory of last opened file
 set hidden " allow auto-hiding of edited buffers
 set history=4096 " more history
-set foldmethod=syntax " use syntax to define folds
+set foldmethod=indent " use syntax to define folds
 " unfold everything by default
 autocmd Syntax * normal zR
 " use 2 spaces instead of tabs during formatting

@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.dotfiles/bin:/usr/local/bin:$PATH
 
 # Preferred editor for local and remote sessions
-export EDITOR='vim'
+export EDITOR=vim
 
 # Force 256 colors
 # export TERM=xterm-256color
