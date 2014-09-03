@@ -400,7 +400,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>307 429 924 485 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>82 67 585 451 0 0 1024 746 </string>
+	<string>481 102 1834 1170 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1228,6 +1228,10 @@
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>2.0</string>
 </dict>
