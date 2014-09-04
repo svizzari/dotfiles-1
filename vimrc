@@ -56,7 +56,6 @@ set laststatus=2
 map <Down> gj
 map <Up> gk
 
-
 "--------------
 " Better saving
 "--------------
@@ -135,6 +134,8 @@ let g:lightline={ 'colorscheme': 'jellybeans' }
 " ---------
 " Filetypes
 " ---------
+
+filetype plugin on
 
 " au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,config.ru,*.rake} set ft=ruby
 au BufRead,BufNewFile *.json set ft=javascript
