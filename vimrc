@@ -10,7 +10,7 @@ call pathogen#helptags()
 "---------------------
 " Basic editing config
 "---------------------
-syntax on
+syntax enable
 let mapleader=","
 set nu " number lines
 set incsearch " incremental search (as string is being typed)
@@ -45,12 +45,17 @@ set mouse+=a " enable mouse mode (scrolling, selection, etc)
 set laststatus=2
 
 "-------------------
-" Disable arrow keys
+" Arrow keys
 "-------------------
 " nnoremap <Left> :echoe "Use h"<CR>
 " nnoremap <Right> :echoe "Use l"<CR>
 " nnoremap <Up> :echoe "Use k"<CR>
 " nnoremap <Down> :echoe "Use j"<CR>
+
+" Map the arrow keys to be based on display lines, not physical lines
+map <Down> gj
+map <Up> gk
+
 
 "--------------
 " Better saving
@@ -83,10 +88,14 @@ nmap <leader>gp :Git push<CR>
 " Normal Mode: Bubble single lines
 nmap <C-Up> [e
 nmap <C-Down> ]e
+nmap <C-k> [e
+nmap <C-j> ]e
 
 " Visual Mode: Bubble multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
+vmap <C-k> [egv
+vmap <C-j> ]egv
 
 "--------------------
 " Misc configurations
@@ -111,6 +120,9 @@ set pastetoggle=<F4>
 set splitbelow
 set splitright
 
+" Adjust viewports to the same size
+map <leader>= <C-w>=
+
 "------
 " Theme
 "------
@@ -119,6 +131,13 @@ set guifont=Anonymous\ Pro:h14
 set background=dark
 set t_Co=256
 let g:lightline={ 'colorscheme': 'jellybeans' }
+
+" ---------
+" Filetypes
+" ---------
+
+" au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,config.ru,*.rake} set ft=ruby
+au BufRead,BufNewFile *.json set ft=javascript
 
 "--------
 " Plugins
