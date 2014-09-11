@@ -103,9 +103,6 @@
 [submodule "vim/bundle/lightline.vim"]
 	path = vim/bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
-[submodule "vim/bundle/vim-puppet"]
-	path = vim/bundle/vim-puppet
-	url = https://github.com/rodjek/vim-puppet.git
 [submodule "vim/bundle/tlib_vim"]
 	path = vim/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
