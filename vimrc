@@ -122,6 +122,9 @@ set splitright
 " Adjust viewports to the same size
 map <leader>= <C-w>=
 
+" Vim repeat
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
+
 "------
 " Theme
 "------
@@ -134,7 +137,6 @@ let g:lightline={ 'colorscheme': 'jellybeans' }
 " ---------
 " Filetypes
 " ---------
-
 filetype plugin on
 
 " au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,config.ru,*.rake} set ft=ruby
