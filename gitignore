@@ -1,3 +1,5 @@
 # Generic files
-.*.swp
+*.swp
+*.swo
+.*.sw*
 

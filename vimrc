@@ -128,8 +128,8 @@ silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 "------
 " Theme
 "------
-colorscheme jellybeans "base16-tomorrow
-set guifont=Anonymous\ Pro:h14
+colorscheme jellybeans
+set guifont=Anonymous\ Pro:h16
 set background=dark
 set t_Co=256
 let g:lightline={ 'colorscheme': 'jellybeans' }
@@ -145,6 +145,8 @@ au BufRead,BufNewFile *.json set ft=javascript
 "--------
 " Plugins
 "--------
+let g:ctrlp_custom_ignore='node_modules\|DS_Store\|git'
+
 let NERDTreeHijackNetrw=1
 
 let g:syntastic_enable_signs=1
