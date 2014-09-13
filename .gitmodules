@@ -106,9 +106,6 @@
 [submodule "vim/bundle/tlib_vim"]
 	path = vim/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
-[submodule "vim/bundle/vim-puppet"]
-	path = vim/bundle/vim-puppet
-	url = https://github.com/ajf/puppet-vim
 [submodule "vim/bundle/vim-css-color"]
 	path = vim/bundle/vim-css-color
 	url = https://github.com/ap/vim-css-color.git
