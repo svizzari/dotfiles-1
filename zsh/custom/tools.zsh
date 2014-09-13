@@ -13,5 +13,8 @@ then
   alias la='gls -A --color'
 fi
 
+# nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # RBENV
 eval "$(rbenv init -)"
