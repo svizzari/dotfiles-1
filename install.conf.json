@@ -11,6 +11,7 @@
     "link": {
       "~/.ackrc":     "ackrc",
       "~/.gitignore": "gitignore",
+      "~/.npmrc":     "npmrc",
       "~/.oh-my-zsh": "zsh/oh-my-zsh/",
       "~/.rspec":     "rspec",
       "~/.tmux.conf": "tmux.conf",
