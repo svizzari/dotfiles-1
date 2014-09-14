@@ -115,3 +115,18 @@
 [submodule "vim/bundle/vim-puppet"]
 	path = vim/bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet.git
+[submodule "vim/bundle/vim-fireplace"]
+	path = vim/bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "vim/bundle/vim-leiningen"]
+	path = vim/bundle/vim-leiningen
+	url = https://github.com/tpope/vim-leiningen.git
+[submodule "vim/bundle/vim-clojure-static"]
+	path = vim/bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+[submodule "vim/bundle/rainbow_parentheses"]
+	path = vim/bundle/rainbow_parentheses
+	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "vim/bundle/vim-clojure-highlight"]
+	path = vim/bundle/vim-clojure-highlight
+	url = https://github.com/guns/vim-clojure-highlight.git

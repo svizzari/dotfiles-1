@@ -10,7 +10,7 @@ call pathogen#helptags()
 "---------------------
 " Basic editing config
 "---------------------
-syntax enable
+syntax on
 let mapleader=","
 set nu " number lines
 set incsearch " incremental search (as string is being typed)
@@ -125,6 +125,11 @@ map <leader>= <C-w>=
 " Vim repeat
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 "------
 " Theme
 "------
@@ -137,7 +142,7 @@ let g:lightline={ 'colorscheme': 'jellybeans' }
 " ---------
 " Filetypes
 " ---------
-filetype plugin on
+filetype plugin indent on
 
 " au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,config.ru,*.rake} set ft=ruby
 au BufRead,BufNewFile *.json set ft=javascript
