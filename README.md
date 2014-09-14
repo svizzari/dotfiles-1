@@ -1,7 +1,7 @@
 dotfiles
 ======
 
-A collection of the configuration files used on development machines. These are generic, OS agnostic, idempotent configurations that can be used in conjunction with [OS X](https://github.com/tmcinerney/dotfiles-osx) and [Ubuntu](https://github.com/tmcinerney/dotfiles-ubuntu) specific configurations. 
+A collection of configuration files used on development machines. These are generic, OS agnostic, idempotent configurations that can be used in conjunction with [OS X](https://github.com/tmcinerney/dotfiles-osx) and [Ubuntu](https://github.com/tmcinerney/dotfiles-ubuntu) specific configurations. 
 
 ## Getting started
 
