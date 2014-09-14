@@ -17,9 +17,7 @@
       "~/.tmux.conf": "tmux.conf",
       "~/.vim":       "vim/",
       "~/.vimrc":     "vimrc",
-      "~/.zshrc":     "zshrc",
-
-      "~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": "preferences.sublime-settings"
+      "~/.zshrc":     "zshrc"
     }
   }
 ]
