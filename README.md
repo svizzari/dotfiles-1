@@ -11,7 +11,7 @@ I currently bootstrap my machines using [Boxen](https://boxen.github.com/) for O
 
 ### Configuration
 
-Configuration is done using a JSON based [configuration file](https://github.com/tmcinerney/dotfiles/blob/master/install.conf.json) to describe what needs to be done. For example;
+Configuration is done using a JSON based [configuration file](https://github.com/tmcinerney/dotfiles/blob/master/install.conf.json), to describe what needs to be done. For example;
 
 ```json
 [
@@ -45,7 +45,7 @@ In this case it will:
 0. Update any submodules you have within your dotfiles folder (i.e. vim plugins)
 0. Link the files and folders specified to the home folder.
 
-For more information, please check out the [dotbot](https://github.com/anishathalye/dotbot) repository.
+For more information, please check out [dotbot](https://github.com/anishathalye/dotbot).
 
 ### Installation
 
@@ -59,4 +59,4 @@ That's it! You should see some output for each of the files/folders configured, 
 
 ## Help?
 
-Feel free to contact me if you have any questions of comments.
+Feel free to contact me if you have any questions or comments.
