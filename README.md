@@ -41,7 +41,7 @@ Configuration is done using a JSON based [configuration file](https://github.com
 
 In this case it will:
 
-1. Clean the home folder `~`
+1. Clean the home folder `~` of broken symbolic links
 0. Update any submodules you have within your dotfiles folder (i.e. vim plugins)
 0. Link the files and folders specified to the home folder.
 
