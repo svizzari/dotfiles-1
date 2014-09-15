@@ -17,7 +17,7 @@
   pr                  = pull-request
   sf                  = show --format=fuller
   sfs                 = show --format=fuller --stat
-  st                  = status -sb
+  st                  = status -sb --ignore-submodules=dirty
   standup             = log --since=yesterday --author='Travers McInerney'
   track               = branch -u
   update-submodules   = submodule update --init --recursive
