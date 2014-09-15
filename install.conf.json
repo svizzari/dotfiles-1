@@ -3,11 +3,6 @@
     "clean": ["~"]
   },
   {
-    "shell": [
-      ["git update-submodules", "Installing/updating submodules"]
-    ]
-  },
-  {
     "link": {
       "~/.ackrc":     "ackrc",
       "~/.gitignore": "gitignore",
@@ -19,5 +14,10 @@
       "~/.vimrc":     "vimrc",
       "~/.zshrc":     "zshrc"
     }
+  },
+  {
+    "shell": [
+      ["git update-submodules", "Installing/updating submodules"]
+    ]
   }
 ]
