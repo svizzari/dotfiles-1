@@ -1,6 +1,6 @@
 [user]
-  name    = Travers McInerney
-  email   = travers@mcinerney.me
+  name = Travers McInerney
+  email = travers@mcinerney.me
 
 [alias]
   a                   = add -p
@@ -37,7 +37,7 @@
 
 [core]
   editor       = vim
-  excludesfile = /home/tmcinerney/.gitignore
+  excludesfile = /opt/boxen/config/git/gitignore
 
 [push]
   default = simple
@@ -45,3 +45,15 @@
 [pull]
   default = simple
 
+[hub]
+  protocol = https
+
+[credential]
+  helper = /opt/boxen/bin/boxen-git-credential
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
