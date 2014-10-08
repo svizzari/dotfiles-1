@@ -3,8 +3,14 @@
     "clean": ["~"]
   },
   {
+    "shell": [
+      ["rm ~/.gitconfig", "Removing existing gitconfig"]
+    ]
+  },
+  {
     "link": {
       "~/.ackrc":     "ackrc",
+      "~/.gitconfig": "gitconfig",
       "~/.gitignore": "gitignore",
       "~/.npmrc":     "npmrc",
       "~/.oh-my-zsh": "zsh/oh-my-zsh/",
