@@ -9,7 +9,6 @@
   },
   {
     "link": {
-      "~/.dotfiles":  "",
       "~/.ackrc":     "ackrc",
       "~/.gitconfig": "gitconfig",
       "~/.gitignore": "gitignore",
@@ -24,7 +23,7 @@
   },
   {
     "shell": [
-      ["git update-submodules —-init —-recursive", "Installing/updating submodules"]
+      ["git update-submodules", "Installing/updating submodules"]
     ]
   }
 ]
