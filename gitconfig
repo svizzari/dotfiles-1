@@ -1,6 +1,6 @@
 [user]
-  name = Travers McInerney
-  email = travers@mcinerney.me
+  name    = Stefan Vizzari
+  email   = svizzari@zendesk.com
 
 [alias]
   a                   = add -p
@@ -18,7 +18,7 @@
   sf                  = show --format=fuller
   sfs                 = show --format=fuller --stat
   st                  = status -sb --ignore-submodules=dirty
-  standup             = log --since=yesterday --author='Travers McInerney'
+  standup             = log --since=yesterday --author='Stefan Vizzari'
   track               = branch -u
   update-submodules   = submodule update --init --recursive
   upgrade-submodules  = submodule update --init --remote
@@ -36,7 +36,7 @@
   untracked = red
 
 [core]
-  editor       = vim
+  editor       = atom
   excludesfile = /opt/boxen/config/git/gitignore
 
 [push]

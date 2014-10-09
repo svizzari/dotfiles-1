@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="pmcgee"
+ZSH_THEME="gentoo"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.dotfiles/bin:/usr/local/bin:$PATH
 
 # Preferred editor for local and remote sessions
-export EDITOR=vim
+export EDITOR=atom
 
 # Force 256 colors
 # export TERM=xterm-256color
